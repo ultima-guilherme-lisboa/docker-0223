@@ -21,4 +21,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run server &
-    - run: npm test:api
+    - run: npm run test:api
