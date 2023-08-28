@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --host 0.0.0.0 --port 80",
-    "test:api": "newman run Produtos.postman_collection.json -e docker.postman_environment.json"
+    "server": "json-server --watch db.json",
+    "test:api": "newman run Produtos.postman_collection.json -e local.postman_environment.json"
   },
   "keywords": [],
   "author": "",
